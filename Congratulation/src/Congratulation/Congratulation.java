@@ -1,22 +1,14 @@
 package Congratulation;
 
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Congratulation {
-    public static void main(String[] args){
-        System.out.println("Сегодня твой праздник?");
+    public static void main(String[] args) {
+        System.out.println("РЎРµРіРѕРґРЅСЏ С‚РІРѕР№ РїСЂР°Р·РґРЅРёРє?");
         String str = new Scanner(System.in).nextLine();
-        if (str == "Да") {
-            System.out.println("С праздником!");
-        }else if (str == "Да")
-                    System.out.println("В другой раз");
-            }
-            }
-
-
-
-
-
-
-
-
+        if (Objects.equals(str, "Р”Р°")) {
+            System.out.println("РЎ РїСЂР°Р·РґРЅРёРєРѕРј!");
+        } else System.out.println("Р’ РґСЂСѓРіРѕР№ СЂР°Р·");
+    }
+}
